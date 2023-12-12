@@ -1,0 +1,236 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Source Sans 3', sans-serif;
+}
+#HeaderSection{
+    height: 100px;
+    font-weight: 100;
+    margin-left: -5px;
+}
+#HeaderSection nav{
+    padding: 0px;
+    background-color: white;
+}
+#HeaderSection nav img{
+    margin: 0px 0px 0px 100px;
+}
+.dropdown button{
+    font-weight: 900;
+    color: #616264;
+    font-size: 15px;
+    margin-right: 10px;
+
+}
+.dropdown:hover{
+    color: #e11b23;
+    border-bottom:3px solid #e11b23;
+    border-radius: none;
+}
+.nav-link i{
+    font-size: 22px;
+    color: #616264;
+    margin-right: 22px;
+}
+.nav-link:hover{
+    color: #e11b23;
+    border-bottom:3px solid #e11b23;
+
+
+}
+.carousel-indicators button{
+    height: 10px !important;
+    width: 10px !important;
+    border-radius: 100%;
+    margin: 0px 7px !important;
+    background-color: #117a7a  !important;
+}
+.carousel-indicators{
+    position: absolute;
+    top: 482px;
+}
+#FandomSection{
+    margin-top: 70px;
+}
+#FandomSection h1{
+    font-size: 25px;
+    text-align: center;
+    font-weight: 900;
+    color: #282c3f;
+}
+#FandomCarousel div img{
+    width:425px;
+    margin: 25px 10px;
+
+}
+#ArrivalsSection{
+    margin-top: 20px;   
+}
+#ArrivalsSection h1{
+    text-align: center;
+    font-weight: 900;
+    color: #282c3f;
+}
+#ArrivalsCarousel div img{
+    width:315px;
+    margin: 26px 0px 26px 18px;
+
+}
+#LatestSection{
+    margin-top: 20px;   
+}
+#LatestSection h1{
+    text-align: center;
+    font-weight: 900;
+    color: #282c3f;
+}
+#LatestCarousel div img{
+    width:425px;
+    margin: 25px 10px;
+
+}
+#CategorySection{
+    padding: 65px 0 0 0;
+}
+
+#CategorySection h1{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 900;
+    color: #282c3f;
+}
+#CategoriesDiv1{
+    display: inline-block;
+    padding: 0;
+}
+#CategoriesDiv1 li{
+    display: inline-block;
+    overflow: hidden;
+    width: 440px;
+    height: 480px;
+}
+#CategoriesDiv1 li img{
+    width:440px;
+    margin: 25px 12px;
+
+}
+/* #CategoriesDiv1 li img:hover{
+    transform: scale(1.1);
+} */
+#CategoriesDiv2 img{
+    width: 310px;
+    margin: 25px 12px;
+}
+#TopSellingSection{
+    margin: 20px 0px 0px 12px;
+}
+#TopSellingSection h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+    color: #282c3f;
+}
+#TopSellingSection img{
+    width: 320px;
+    margin: 25px 5px;
+}
+#MembershipSection{
+    margin: 25px 0px 0px 0px;
+}
+
+#MembershipSection H1{
+    font-size: 25px;
+    font-weight: 900;
+    text-align:center;
+    color: #282c3f;
+    padding: 0px 0px 20px 0px;
+}
+#MembershipSection img{
+    width: 100%;
+}
+
+#MerchandiseSection{
+    margin-top: 20px;
+}
+#MerchandiseSection H1{
+    font-size: 25px;
+    font-weight: 900;
+    text-align:center;
+    color: #282c3f;
+    padding: 0px 0px 20px 0px;
+}
+#CelebritySection img{
+    width: 100%;
+}
+#CelebritySection h1{
+    font-size: 25px;
+    font-weight: 900;
+    text-align:center;
+    color: #282c3f;
+    padding: 30px 0px 20px 0px;
+}
+#MerchandiseSection div img{
+    width: 240px;
+    margin: 0px 13px;
+}
+#TextSection h1{
+    font-size: 35px;
+    font-weight: 900;
+    text-align:center;
+    color: #282c3f;
+    padding: 15px 0px ;
+    background-color: #e71318;
+    color: white;
+    margin-top: 35px;
+}
+#TextSection h2{
+    font-size: 45px;
+    font-weight: 900;
+    text-align:center;
+    color: #282c3f;
+    margin-top: 25px;
+}
+#TextSection h2 span{
+    font-weight: bolder;
+}
+#FooterSection{
+    background-color: #e6e7e8;
+    padding-bottom: 50px;
+}
+#FooterSection div{
+    display: inline-block;
+    width: 21%;
+    vertical-align: top;
+    padding: 40px 0 0 100px;
+}
+#FooterSection div ul{
+   list-style: none;
+}
+#FooterSection div ul li{
+    font-weight: 900;
+    font-size: 15px;
+    padding-top: 10px;
+ }
+#FooterSection div ul li h5{
+    color: #e11b23;
+    font-weight: 900;
+}
+#FooterSection div ul li:hover{
+    color: #e11b23;
+}
+#FooterSection h6{
+    padding-left: 130px;
+    font-size: 17px;
+}
+#FooterSection h6 #COD{
+    border: 1px solid black;
+    border-radius: 100%;
+    padding: 4px 9px;
+    margin-right: 10px;
+}
+#FooterSection h6 #refresh{
+    border: 1px solid black;
+    border-radius: 100%;
+    padding: 3px 6px;
+    margin-right: 10px;
+}
